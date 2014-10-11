@@ -1,0 +1,29 @@
+/*
+Theme Name: Alienship for CasePress with Bootstrap 3 and small customization
+Template: alienship
+*/
+
+/*
+This is a starter style.css file for your Alien Ship child theme. Place it in your
+child theme's directory and activate it in the WordPress admin panel. For more
+information about creating your own child theme, visit the following web page:
+http://codex.wordpress.org/Child_Themes
+*/
+
+/*
+---------------------------------------------------------------------
+Uncomment the following line to import Alien Ship's style.css file.
+---------------------------------------------------------------------
+*/
+@import url("../alienship/style.css");
+
+#masthead {
+padding-bottom: 0px;
+}
+
+
+@media (min-width: 768px) {
+	
+#secondary {float: left;}
+#primary {float: right;}
+}
